@@ -1,0 +1,12 @@
+{
+    "version": "8.2.0-beta",
+    "build": "20241228-01",
+    "releaseDate": "2024-12-28",
+    "changelog": [
+        "✅ Updated to v8.2 Beta",
+        "✅ Aesthetic Main Menu & Owner Menu",
+        "✅ Inline Buttons Implementation",
+        "✅ Added Missing Help Categories (RPG, Automation, etc.)",
+        "✅ Improved Update System"
+    ]
+}
