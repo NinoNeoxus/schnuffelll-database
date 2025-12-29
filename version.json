@@ -1,21 +1,21 @@
 {
-    "version": "8.9",
-    "build": "2024122903",
+    "version": "8.10",
+    "build": "2024122904",
     "releaseDate": "2024-12-29",
     "changelog": [
-        "🔧 Version 8.9 - Rebuild Fix",
+        "🔧 Version 8.10 - Rebuild Reconnect Fix",
         "",
-        "✅ FIX: /rebuild stuck nunggu reboot",
-        "   - Auto-send command 'reboot' setelah script",
-        "   - Detect ketika script minta reboot",
-        "   - Ga perlu ketik manual lagi",
+        "✅ FIX: /rebuild reconnect setelah reboot",
+        "   - Auto-reconnect setiap 60 detik (max 5x)",
+        "   - Auto-jalankan tail log setelah reconnect",
+        "   - Retry jika file log belum ada",
+        "   - Status update lebih jelas",
+        "",
+        "✅ PREV v8.9:",
+        "   - Auto-send reboot command",
         "",
         "✅ PREV v8.8:",
-        "   - Fix HTML tags keliatan di chat",
-        "   - Fix tombol Pengaturan ga bisa diklik",
-        "",
-        "✅ PREV v8.7:",
-        "   - /gencert command SSL certificate"
+        "   - Fix HTML tags & Pengaturan button"
     ],
     "downloadUrl": "https://raw.githubusercontent.com/NinoNeoxus/schnuffelll-database/main/latest.zip",
     "minVersion": "7.0"
