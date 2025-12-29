@@ -1,19 +1,25 @@
 {
-    "version": "8.6",
-    "build": "2024122900",
+    "version": "8.7",
+    "build": "2024122901",
     "releaseDate": "2024-12-29",
     "changelog": [
-        "ðŸ”¥ Version 8.6 MAJOR FIX",
+        "🔐 Version 8.7 - SSL Certificate Fix",
         "",
-        "âœ… RESTORED: panel.js (3364 lines)",
-        "   - /unli, /unliv2-v5",
-        "   - /cadp, /cadpv2-v5",
-        "   - /1gb - /10gb",
-        "   - /info, /servercpu",
+        "✅ NEW: /gencert command",
+        "   - Generate SSL certificate untuk Wings Node",
+        "   - Fix error: failed to configure HTTPS server",
+        "   - Support mode interaktif & langsung",
         "",
-        "âœ… FIX: Duplicate module loads removed",
-        "âœ… FIX: schnuffelll.js updated to load panel.js"
+        "✅ FIX: /swings auto SSL check",
+        "   - Otomatis cek & generate SSL sebelum restart Wings",
+        "   - Tidak perlu manual certbot lagi",
+        "",
+        "✅ NEW: Tombol di Install Menu",
+        "   - Gen SSL Cert button",
+        "   - Debug Wings button",
+        "",
+        "✅ FIX: HTML parse_mode issues"
     ],
-    "downloadUrl": "https://raw.githubusercontent.com/NinoNeoxus/schnuffelll-bot/main/latest.zip",
+    "downloadUrl": "https://raw.githubusercontent.com/NinoNeoxus/schnuffelll-database/main/latest.zip",
     "minVersion": "7.0"
 }
